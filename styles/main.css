@@ -10,6 +10,7 @@
     --primary-fon-color: #F5F5F5;
     --primary-fon2-color:#F5F4FA;
     --primary-bottom-color: rgba(255, 255, 255, 0.6);
+    --transition-dur-and-func: 250ms linear;
 }
 body{ font-family:var(--primary-font);
 font-size: 14px;
@@ -118,8 +119,9 @@ display: inline-block;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
-
 color: var(--primary-text-color);
+display: flex;
+align-items: center;
 }
 
 .contact-mail-numbre:hover,
@@ -130,15 +132,15 @@ color: var(--primary-text-color);
 .menu-link :focus
 {color: var(--accent-color);}
 
-.contact-mail-numbre-icon{
-    width: 16px;
-    height: 12px;
-    margin:10px ;
-}
-.contact-mail-numbre-icon:focus,
-.contact-mail-numbre-icon:hover{
-    color: var(--accent-color);
-}
+.contact-mail-numbre-icon,
+.contact-mail-phone-icon{
+width: 16px;
+height: 12px;
+margin:10px ;
+} 
+.contact-mail-number:hover  .contact-mail-numbre-icon,
+.contact-phone-numbre:hover .contact-mail-phone-icon
+{ fill: var(--accent-color);}
 
                /*----Header---*/
 
@@ -228,8 +230,12 @@ color: var(--primary-gray-color);
 font-size: 14px;
 line-height: 1.87;
 text-transform: uppercase;
-margin-bottom: 10px;
- }
+margin-bottom: 10px;}
+.element{
+width: 270px;
+height: 120px;
+
+}
 
    .menu-text {
     line-height: 1.71;
@@ -288,6 +294,8 @@ margin-bottom: 50px;
 .foto {
     width: 270px;
     background-color: var(--primary-whyte-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .people{
     margin-bottom: 30px;
@@ -309,8 +317,41 @@ line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
-margin-bottom: 30px;
+margin-bottom: 16px;
 }
+.social-list {
+display: flex;
+justify-content: center;
+column-gap: 10px;
+margin-bottom: 30px; }
+
+.social-list-link{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+background-color: #ffffff;
+transition: background-color var(--transition-dur-and-func);
+}
+.social-list-link:hover,
+.social-list-link:focus {
+background-color: var(--accent-color);
+}
+.social-list-icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+    transition: fill var(--transition-dur-and-func);
+}
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+fill: var(--primary-whyte-color);
+}
+
+
+
             /*---TEAM---*/
 
            /*---FOOTER---*/

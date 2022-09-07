@@ -112,9 +112,9 @@ font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color:var(--primary-text-color);
+display: flex;
+align-items: center;
 }
-
-
 .contact-mail-numbre:hover,
 .contact-mail-numbre:focus,
 .contact-phone-numbre:hover,
@@ -122,6 +122,12 @@ color:var(--primary-text-color);
 .menu-link:hover,
 .menu-link :focus{
  color: var(--accent-color);
+}
+.contact-mail-numbre-icon,
+.contact-mail-phone-icon{
+width: 16px;
+height: 12px;
+margin:10px ;
 }
 .decision{ background-color: var(--primary-link-color);}
 
