@@ -376,7 +376,7 @@ fill: #AFB1B8;
 } 
 .cursor:focus,
 .cursor:hover
-{fill: var(--accent-color);}
+{background-color: var(--accent-color);}
 
          
            /*---FOOTER---*/
