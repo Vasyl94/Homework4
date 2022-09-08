@@ -365,17 +365,20 @@ margin: 30px;
 display: flex;
 justify-content: center;
 align-items: center;
+background: #F5F5F5;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
 } 
 .company{
 width: 106px;
 height: 60px;
-}           
+fill: #AFB1B8;
+} 
+.cursor:focus,
 .cursor:hover
-.cursor:focus{
-background-color: var(--accent-color);
-}
+{fill: var(--accent-color);}
+
+         
            /*---FOOTER---*/
 
 .logo-second{ 
