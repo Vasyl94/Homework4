@@ -197,7 +197,8 @@ border: none;
     }
 
    .text-main 
-   {background-color: var(--primary-fon-color);}
+   {
+    background-color: var(--primary-fon-color);}
                 /*---Text----*/        
 
               /*---SKILLST---*/
@@ -393,7 +394,7 @@ padding-bottom: 60px;}
     color: var(--primary-whyte-color);
 }
 .lower{display: flex;
-    flex-direction: column;
+    gap: 70px;
 }
 .location {
     font-weight: 400;
@@ -420,6 +421,7 @@ color: var(--primary-bottom-color);
     font-size: 26px;
     line-height: 1.19; 
     color: var(--accent-color);
+    display: flex;
     align-items: center;
     margin-bottom: 20px;}
 .retreat{
@@ -446,9 +448,7 @@ background-color: var(--accent-color);
         height: 20px;
         fill: var(--primary-whyte-color); 
         transition: fill var(--transition-dur-and-func); }
-.footer{
-    padding-right: 878px;
-}
+
         .footer-text{
 font-family: 'Roboto';
 font-style: normal;
@@ -459,7 +459,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
 display: flex;
-justify-content: center;
+justify-content: flex-start;
 margin-bottom: 20px;}
 
          /*---FOOTER---*/
