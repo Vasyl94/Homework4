@@ -352,36 +352,40 @@ fill: var(--primary-whyte-color);
 }
 
 
-
             /*---TEAM---*/
             /*----Client----*/
  .parmanent{
     display: flex;
+    gap: 30px;
  }           
 .client{
 width: 170px;
 height: 92px;
-margin: 30px;
-display: flex;
-justify-content: center;
-align-items: center;
-background: #F5F5F5;
-border: 1px solid #AFB1B8;
-border-radius: 4px;
 } 
 .company{
 width: 106px;
 height: 60px;
-fill: #AFB1B8;
 } 
+.cursor{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #AFB1B8;
+}
 .cursor:focus,
 .cursor:hover
-{background-color: var(--accent-color);}
+{border-color: var(--accent-color);
+fill: var(--accent-color);}
 
          
            /*---FOOTER---*/
 
 .logo-second{ 
+    display: flex;
 background-color: var(--primary-link-color);
 padding-top: 60px;
 padding-bottom: 60px;}
@@ -422,4 +426,40 @@ color: var(--primary-bottom-color);
     margin-bottom: 9px;
 }
  
+.social-list-frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: background-color var(--transition-dur-and-func);
+    }
+    
+.social-list-frame:hover,
+.social-list-frame:focus {
+background-color: var(--accent-color);
+}
+    .social-list-icon-footer {
+        width: 20px;
+        height: 20px;
+        fill: var(--primary-whyte-color); 
+        transition: fill var(--transition-dur-and-func); }
+.footer{
+    padding-right: 878px;
+}
+        .footer-text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 0.87;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+margin-bottom: 20px;}
+
          /*---FOOTER---*/
