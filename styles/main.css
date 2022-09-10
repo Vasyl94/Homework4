@@ -150,11 +150,13 @@ margin:10px ;
     background-color: var(--primary-link-color);
 }
 
-.decision{
+.decision{ flex-grow: 1;
     padding-bottom: 200px;
     padding-top: 200px;
-  background-color: var(--primary-link-color);  
- 
+ background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  url("../img/people.jpg");
+ background-size: cover;  
+
 }
 
 .title { 
@@ -197,8 +199,7 @@ border: none;
     }
 
    .text-main 
-   {
-    background-color: var(--primary-fon-color);}
+   {background-color: var(--primary-fon-color);}
                 /*---Text----*/        
 
               /*---SKILLST---*/
@@ -395,6 +396,7 @@ padding-bottom: 60px;}
 }
 .lower{display: flex;
     gap: 70px;
+    align-items: baseline
 }
 .location {
     font-weight: 400;
