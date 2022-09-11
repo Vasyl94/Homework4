@@ -57,7 +57,7 @@ list-style: none;
     padding-right:15px;  
 }
 .page-heder{border-bottom: 1px solid #ECECEC;
-    border: 1px solid #ECECEC;}
+    color: var(--primary-whyte-color);}
  
 
             /*----Header---*/
