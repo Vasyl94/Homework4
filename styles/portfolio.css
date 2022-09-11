@@ -53,7 +53,7 @@ ol{
  }
  .page-header{
     background-color: var(--primary-whyte-color);
-    border: 1px solid #ECECEC;}
+    border-bottom: 1px solid #ECECEC;}
 
      /*----Header---*/
 
@@ -178,9 +178,12 @@ color:var(--primary-whyte-color);
 .dodatok{
     height: 404px;
     width: 370px;
+    
 }
-
-
+.dodatok-list{ text-decoration: none;}
+.txt{
+    text-decoration: none;
+}
 
 .box{
     padding: 20px 24px;
@@ -201,6 +204,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
+color: var(--primary-text-color);
 }
             /*---FOOTER---*/
 .logo-second{ 
