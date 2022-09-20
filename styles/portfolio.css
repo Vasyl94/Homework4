@@ -117,24 +117,13 @@ color:var(--primary-text-color);
 display: flex;
 align-items: center;
 }
-.contact-mail-numbre:hover,
-.contact-mail-numbre:focus,
-.contact-phone-numbre:hover,
-.contact-phone-numbre:focus,
-.menu-link:hover,
-.menu-link :focus{
- color: var(--accent-color);
-}
+
 .contact-mail-numbre-icon,
 .contact-mail-phone-icon{
 width: 16px;
 height: 12px;
 margin-right:10px ;
 } 
-
-.contact-mail-numbre:hover .contact-mail-numbre-icon,
-.contact-phone-numbre:hover .contact-mail-phone-icon
-{ fill: var(--accent-color);}
 
 .decision{ background-color: var(--primary-link-color);}
 
@@ -170,10 +159,15 @@ background-color: var(--accent-color);
 color:var(--primary-whyte-color);
 }
                  /*---Text----*/
+
 .item{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
+.dodatok-list:hover,
+.dodatok-list:focus{
+color: var(--accent-color);
 }
 .dodatok{
     height: 404px;
