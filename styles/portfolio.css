@@ -175,7 +175,8 @@ color:var(--primary-whyte-color);
     width: 370px;
     
 }
-.dodatok-list{ text-decoration: none;}
+.dodatok-list{ text-decoration: none;
+display: block;}
 .txt{
     text-decoration: none;
 }
