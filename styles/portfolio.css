@@ -118,13 +118,26 @@ display: flex;
 align-items: center;
 }
 
-.contact-mail-numbre-icon,
-.contact-mail-phone-icon{
+.contact-mail-numbre-icon{
+margin-right:10px ;
 width: 16px;
 height: 12px;
+}
+.contact-mail-phone-icon{
+width: 10px;
+height: 16px;
 margin-right:10px ;
 } 
-
+.contact-mail-numbre:hover,
+.contact-mail-numbre:focus,
+.contact-phone-numbre:hover,
+.contact-phone-numbre:focus,
+.menu-link:hover,
+.menu-link :focus
+{color: var(--accent-color);}
+.contact-mail-numbre:hover  .contact-mail-numbre-icon,
+.contact-phone-numbre:hover .contact-mail-phone-icon
+{ fill: var(--accent-color);}
 .decision{ background-color: var(--primary-link-color);}
 
 .number{

@@ -132,10 +132,14 @@ align-items: center;
 .menu-link :focus
 {color: var(--accent-color);}
 
-.contact-mail-numbre-icon,
-.contact-mail-phone-icon{
+.contact-mail-numbre-icon{
+margin-right:10px ;
 width: 16px;
 height: 12px;
+}
+.contact-mail-phone-icon{
+width: 10px;
+height: 16px;
 margin-right:10px ;
 } 
 
